@@ -23,4 +23,4 @@ function style_and_script_add(){
 add_action('wp_enqueue_scripts','style_and_script_add');
 
 
-require_once('navwalker/wp-bootstrap-navwalker.php');
+//require_once('navwalker/wp-bootstrap-navwalker.php');

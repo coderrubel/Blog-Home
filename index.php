@@ -18,7 +18,7 @@
                 <p><span class="glyphicon glyphicon-time"></span>Posted on <?php the_time('F d, Y  H:s a') ?></p>
                
                 <?php the_content(); ?>
-                <a class="btn btn-primary" href="#">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a class="btn btn-primary" href="<?php the_permalink(); ?>">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
 
                 <hr>
 

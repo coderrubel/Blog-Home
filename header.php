@@ -18,7 +18,7 @@
 <body class="<?php body_class(); ?>">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top main-navbar" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -34,7 +34,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                  <?php wp_nav_menu(array(
                     'theme_location'=>'main_menu',
-                     'menu_class'=>'navbar_nav nav',
+                     'menu_class'=>'navbar-nav nav navbar-left',
                  ));
                  ?>
             </div>
