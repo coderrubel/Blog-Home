@@ -17,6 +17,7 @@ Tags: WordPress, HTML5, CSS3
     padding-top:20px !important;
 }
 .feature_img{
+    margin-right: 10px;
     width: 250px;
     height: 250px;
     float: left;

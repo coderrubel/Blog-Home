@@ -3,10 +3,11 @@ function blog_home(){
     add_theme_support('title-tag');
     add_theme_support( 'header' );
     add_theme_support('background');
+    add_theme_support('post-thumbnails');
     
     register_nav_menu('main_menu','Mani Menu');
     
-    
+
    
     
 }

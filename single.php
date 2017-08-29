@@ -7,13 +7,12 @@
              <?php while (have_posts()): the_post(); ?>
             <h2><?php the_title(); ?></h2>
        
-            <div class="feature_img"><?php the_post_thumbnail(); ?> </div>  
+           <?php the_post_thumbnail('medium',array('class'=>'  feature_img')); ?>
            
-            <p class="lead">
-                by <a href="index.php"><?php the_author(); ?></a>
-            </p>
-            <p><span class="glyphicon glyphicon-time"></span>Posted on <?php the_time('F d, Y  H:s a') ?></p>
+            
             <?php the_content(); ?>
+           
+            <p><span class="glyphicon glyphicon-time"></span>Posted on <?php the_time('F d, Y  H:s a') ?></p>
             <?php endwhile; ?>
             
         </div>

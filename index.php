@@ -10,7 +10,7 @@
             
               <?php while (have_posts()): the_post(); ?>
                 <h2>
-                    <a href="#"><?php the_title(); ?></a>
+                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                 </h2>
                 <p class="lead">
                     by <a href="index.php"><?php the_author(); ?></a>
